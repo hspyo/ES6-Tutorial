@@ -1,8 +1,8 @@
 'use strict';
 
-// * Variable
+// 1. Variable (read / write)
 
-// 1. let
+// let
 
 let globalName = 'global name'; // 전역변수 (global scope) 어디서나 할 수 있음. 하지만 메모리를 많이 차지하기 때문에 신중히 쓰는 게 좋다.
 {
@@ -29,9 +29,10 @@ console.log(age); // 그래서 {}의 영향을 안받고 정상 출려됨
 
 
 /* 
-  2. Contants
-
-    immutable data type
+  2. Contant (only read)
+  
+    Mutable data types : all objects by default are mutable in JS
+    Immutable data type : premitive types, frozen objects (i.e. object.freeze())
     - security   --> 해커들이 값을 바꿀 수 없음.
     - thread safety --> 어플리케이션이 실행되면 프로세스가 할당이 되는데,
                         그 프로세스 안에는 여러가지의 thread가 동시에 
