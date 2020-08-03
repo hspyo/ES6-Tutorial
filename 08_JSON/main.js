@@ -1,4 +1,4 @@
-// HTTP(Hypertext Transfer Protocal)
+// HTTP(Hypertext Transfer Protocal) Hypertext는 링크, 문서, 이미지 파일도 모두 포함됨.
 // AJAX(Asynchronous JavaScript And XML)
 // XML -> 불필요한 태그들이 많이들어가서 파일 사이즈가 커지고 가독성이 떨어짐
 // 그래서 최근 많이 사용되는 것이 JSON(JavaScript Object Notation)
