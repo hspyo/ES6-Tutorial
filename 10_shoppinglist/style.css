@@ -33,7 +33,7 @@ body {
   transition: transform var(--animation-duration) ease;
 }
 
-#allBtn {
+#buttons {
   display: flex;
   justify-content: center;
   align-items: center;
